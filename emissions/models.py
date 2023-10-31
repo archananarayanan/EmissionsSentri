@@ -1,7 +1,6 @@
 from django.db import models
 
-# Create your models here.
-
+# Emissions Modal to represent the data
 
 class Emissions(models.Model):
     id = models.IntegerField(primary_key=True)

@@ -1,6 +1,4 @@
 from django.shortcuts import render
-
-# Create your views here.
 from emissions.models import Emissions
 from rest_framework import viewsets
 from rest_framework import permissions
